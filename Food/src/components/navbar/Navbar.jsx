@@ -14,8 +14,10 @@ function Navbar() {
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
-            <img src={} alt="" />
+          <img src={assets.basket_icon} alt="" />
+          <din className="dot"></din>
         </div>
+        <button>sing in</button>
       </div>
     </div>
   );
