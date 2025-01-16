@@ -21,6 +21,7 @@ function ExploreMenu() {
           );
         })}
       </div>
+      <hr />
     </div>
   );
 }
