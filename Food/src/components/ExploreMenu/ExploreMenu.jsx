@@ -2,7 +2,8 @@ import React from "react";
 import "./ExploreMenu.css";
 import { menu_list } from "../../assets/assets";
 
-function ExploreMenu(category, setCategory) {
+// eslint-disable-next-line react/prop-types
+function ExploreMenu({ category, setCategory }) {
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our Menu</h1>
