@@ -25,9 +25,27 @@ function Footer() {
             <img src={assets.linkedin_icon} alt="" />
           </div>
         </div>
-        <div className="footer-content-center"></div>
-        <div className="footer-content-right"></div>
+        <div className="footer-content-center">
+          <h2>COMPANY</h2>
+          <ul>
+            <li>Home</li>
+            <li>About us </li>
+            <li>Delivery</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        <div className="footer-content-right">
+          <h2>Get in touch</h2>
+          <ul>
+            <il>+998900000000</il>
+            <il>contact@tomato.com</il>
+          </ul>
+        </div>
       </div>
+      <hr />
+      <p className="footer-copyright">
+        Copyright 2025 Tomato.com -All Right Reserved.
+      </p>
     </div>
   );
 }
