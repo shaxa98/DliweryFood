@@ -36,7 +36,7 @@ function Navbar() {
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
           <img src={assets.basket_icon} alt="" />
-          <din className="dot"></din>
+          <div className="dot"></div>
         </div>
         <button>sing in</button>
       </div>
