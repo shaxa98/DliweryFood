@@ -38,6 +38,7 @@ function Footer() {
           <h2>Get in touch</h2>
           <ul>
             <il>+998900000000</il>
+            <br />
             <il>contact@tomato.com</il>
           </ul>
         </div>
