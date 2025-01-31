@@ -6,4 +6,11 @@
   align-items: center;
   gap: 20px;
   padding: 20px 8vw;
+  padding-top: 18px;
+}
+.footer-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 80px;
 }
