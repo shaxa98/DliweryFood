@@ -9,7 +9,7 @@ function AppDownload() {
         For Better Experience Download <br />
         Tomato App
       </p>
-      <div className="app-download-paltforms">
+      <div className="app-download-platforms">
         <img src={assets.play_store} alt="" />
         <img src={assets.app_store} alt="" />
       </div>
