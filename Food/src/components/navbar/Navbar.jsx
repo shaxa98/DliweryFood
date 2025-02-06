@@ -9,7 +9,7 @@ function Navbar() {
       <ul className="navbar-menu">
         <li
           onClick={() => setMenu("home")}
-          classNaimport React, { useContext, useState} from "react";
+          classNaimport React { useContext, useState} from "react";
           import "./Navbar.css";
           import { assets } from "../assets/assets";
           import { Link, useNavigate } from "react-router-dom";
