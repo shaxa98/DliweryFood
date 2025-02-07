@@ -1,54 +1,41 @@
-import React from "react";
-import "./Footer.css";
-import { assets } from "../../assets/assets";
+import React from 'react'
+import './Footer.css'
+import { assets } from '../../assets/assets'
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="footer" id="footer">
+    <div className="footer" id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-          <div className="footer-social-icons">
-            <img src={assets.facebook_icon} alt="" />
-            <img src={assets.twitter_icon} alt="" />
-            <img src={assets.linkedin_icon} alt="" />
-          </div>
+            <img src={assets.logo} alt="" />
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem expedita placeat deserunt quos pariatur itaque. Suscipit consequatur omnis sapiente rerum voluptate qui sunt sint quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+             <div className="footer-social-icons">
+                <img src={assets.facebook_icon} alt="" />
+                <img src={assets.twitter_icon} alt="" />
+                <img src={assets.linkedin_icon} alt="" />
+             </div>
         </div>
         <div className="footer-content-center">
-          <h2>COMPANY</h2>
-          <ul>
-            <li>Home</li>
-            <li>About us </li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
-          </ul>
-        </div>
+            <h2>COMPANY</h2>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Delivery</li>
+                <li>Privacy policy</li>
+            </ul>
+            </div>
         <div className="footer-content-right">
-          <h2>Get in touch</h2>
-          <ul>
-            <il>+998900000000</il>
-            <br />
-            <il>contact@tomato.com</il>
-          </ul>
+                <h2>GET IN TOUCH</h2>
+                <ul>
+                    <li>+1-212-456-7890</li>
+                    <li>contact@tomato.com</li>
+                </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">
-        Copyright 2025 Tomato.com -All Right Reserved.
-      </p>
+      <p className="footer-copyright">Copyright 2024 ©️ Tomato.com - All Right Reserved.</p>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
